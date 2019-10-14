@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Contact;
 
 @interface LSIContactController : NSObject
 
-@property (nonatomic, readonly) NSArray *contacts;
+@property (nonatomic, readonly) NSArray<Contact *> *contacts;
 
 @end

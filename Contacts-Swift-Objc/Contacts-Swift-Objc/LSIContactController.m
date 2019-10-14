@@ -11,7 +11,7 @@
 
 @interface LSIContactController()
 
-@property (nonatomic, readwrite) NSMutableArray *internalContacts;
+@property (nonatomic, readwrite) NSMutableArray<Contact *> *internalContacts;
 
 @end
 
@@ -25,7 +25,7 @@
 	return self;
 }
 
-- (NSArray *)contacts {
+- (NSArray<Contact *> *)contacts {
 	return [self.internalContacts copy];
 }
 
