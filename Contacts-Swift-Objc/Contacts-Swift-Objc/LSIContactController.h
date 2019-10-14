@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 @class Contact;
 
+NS_SWIFT_NAME(ContactController) // rename objc class for swift
 @interface LSIContactController : NSObject
 
 @property (nonatomic, readonly, nonnull) NSArray<Contact *> *contacts;

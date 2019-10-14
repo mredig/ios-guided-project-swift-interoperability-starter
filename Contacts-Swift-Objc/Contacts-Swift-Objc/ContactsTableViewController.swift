@@ -10,7 +10,7 @@ import UIKit
 
 class ContactsTableViewController: UITableViewController {
 
-	var contactsController = LSIContactController()
+	var contactsController = ContactController()
 	
 	// MARK: - Table view data source
 	
