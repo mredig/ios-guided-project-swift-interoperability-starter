@@ -11,7 +11,7 @@
 
 @interface LSIContactController()
 
-@property (nonatomic, readwrite) NSMutableArray<Contact *> *internalContacts;
+@property (nonatomic, readwrite, nonnull) NSMutableArray<Contact *> *internalContacts;
 
 @end
 

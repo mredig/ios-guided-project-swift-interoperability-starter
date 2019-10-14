@@ -11,6 +11,6 @@
 
 @interface LSIContactController : NSObject
 
-@property (nonatomic, readonly) NSArray<Contact *> *contacts;
+@property (nonatomic, readonly, nonnull) NSArray<Contact *> *contacts;
 
 @end
