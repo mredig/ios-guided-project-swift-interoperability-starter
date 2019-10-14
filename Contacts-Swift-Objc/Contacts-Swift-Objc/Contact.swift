@@ -8,6 +8,7 @@
 
 import Foundation
 
+//@objc(LSIContact) // this breaks THIS project (likely cuz swift -> Objc -> Swift cycle) but this is how you would rename a swift class for use in objc
 class Contact: NSObject {
 	var name: String
 	var relationship: String?
